@@ -58,6 +58,7 @@ body{
 }
 .container {
      display: flex;
+    z-index: -1;
      justify-content: space-around;
 }
 .budget-div {
@@ -101,6 +102,7 @@ body{
     border: none;
     color: #ffffff;
     border-radius: 30px;
+    z-index: -1;
 }
 .expense-div {
     border: 1px solid #f44336;
@@ -132,6 +134,7 @@ body{
     color: #ffffff;
     border: none;
     border-radius: 30px;
+    z-index: -1;
     width: 100px;
 }
 .info {
@@ -516,4 +519,5 @@ width: 100%;
 top: 0px;
 right: 0px;
 height: 10vh;
+     z-index: 1;
  }
