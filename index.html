@@ -48,7 +48,7 @@
     </label><br>
     <label for="expense">Enter your expense value<br>
     <input type="number" value="" placeholder="How much does it cost?"  id="expense" min="0"></label><br>
-    <button onclick="calculate()" id="calculate" >Calculate</button>
+    <button onclick="calculate()" ontouchstart="mDown(this)"  ontouchend="mUp(this)" onmousedown="mDown(this)" onmouseup="mUp(this)" id="calculate" >Calculate</button>
             </div>
           
         </section>
@@ -68,7 +68,7 @@
             <h1>Expense List</h1>
         <div id="exp-div">
         </div>
-        <button class="delete" onclick="reset()"><i class="fi fi-rr-trash"></i></button>
+        <button class="delete" ontouchstart="mDown(this)"  ontouchend="mUp(this)" onmousedown="mDown(this)" onmouseup="mUp(this)"  onclick="reset()"><i class="fi fi-rr-trash"></i></button>
         </div>
         </section>
 </div>
