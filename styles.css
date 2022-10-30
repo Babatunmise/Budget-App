@@ -112,6 +112,9 @@ background-color: #e1eaee;
     text-align: center;
     border-radius: 10px;
     padding: 20px 0 0 0;
+background-color: #e1eaee;
+
+
 
 }
 .expense-div label {
@@ -149,6 +152,9 @@ background-color: #e1eaee;
     align-items: center;
     font-family: "SF-Pro-Regular";
     background-color: #e1eaee;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");   
+
+
 }
 .info-val {
     color: #112A46;
@@ -162,6 +168,9 @@ background-color: #e1eaee;
     width: 180px;
     font-family: "SF-Pro-Heavy";
     transition: all 0.5s ease-in-out !important;
+  background-color: #e1eaee;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");   
+
+
 }
 #exp-div {
   height: auto;
@@ -179,6 +188,9 @@ background-color: #e1eaee;
     height: auto !important;
     width: 100%;
     overflow-wrap: break-word;
+  background-color: #e1eaee;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");   
+
+
 }
 .expCon p {
     font-size: 17px !important;
