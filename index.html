@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Budget App</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+              <div id="logo"><?xml version="1.0" ?><svg class="logo" id="Layer_1" style="enable-background:new 0 0 50 50;" version="1.1" viewBox="0 0 50 50" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                    .st0{fill:#F0C4DB;}
+                    .st1{fill:#FF9D9C;}
+                    .st2{fill:#9BEAF9;}
+                    .st3{fill:#E9F4BC;}
+                    .st4{fill:#505050;}
+                    .st5{fill:#FEBECC;}
+                    .st6{fill:#FFFFFF;}
+                    .st7{fill:#FDE4A1;}
+                    .st8{fill:#FEE7B5;}
+                    .st9{fill:#CDF6FC;}
+                    .st10{fill:#F2C6DD;}
+                    .st11{opacity:0.1;}
+                </style><g><path class="st5" d="M6.51,28.03c2.43,0.98,5.08,1.54,7.87,1.54c11.6,0,21-9.4,21-21c0-2.62-0.5-5.13-1.38-7.44H6.51V28.03z"/><g><g><g><circle class="st3" cx="30.56" cy="35.9" r="12.22"/></g><g><circle class="st7" cx="30.56" cy="35.9" r="9.09"/></g><path class="st1" d="M42.23,9.38c0,3.22-1.31,6.14-3.42,8.25c-2.11,2.11-5.03,3.42-8.25,3.42C30.56,14.61,35.78,9.38,42.23,9.38     L42.23,9.38z"/><path class="st1" d="M18.89,9.38c0,3.22,1.31,6.14,3.42,8.25s5.03,3.42,8.25,3.42C30.56,14.61,25.34,9.38,18.89,9.38L18.89,9.38z     "/><circle class="st2" cx="30.56" cy="6.24" r="4.11"/></g><g><path class="st4" d="M31.26,22.96v-1.2c3.03-0.18,5.87-1.43,8.04-3.6c2.35-2.35,3.64-5.46,3.64-8.78c0-0.41-0.34-0.75-0.76-0.75     c-4.71,0-8.81,2.64-10.92,6.51v-4.13c2.32-0.36,4.11-2.36,4.11-4.78c0-2.68-2.18-4.86-4.86-4.86s-4.86,2.18-4.86,4.86     c0,2.42,1.79,4.42,4.11,4.78v4.11c-2.11-3.87-6.21-6.5-10.91-6.5h-0.01c-0.41,0-0.75,0.34-0.75,0.75c0,3.32,1.29,6.44,3.64,8.78     c2.17,2.17,5,3.42,8.03,3.6v1.19c-6.17,0.36-11.32,5.08-12.12,11.28c-0.05,0.41,0.24,0.78,0.65,0.84     c0.42,0.05,0.79-0.25,0.84-0.65c0.73-5.7,5.63-10,11.37-10c0,0,0.01,0,0.01,0c0,0,0.01,0,0.01,0     c6.31,0.02,11.45,5.16,11.47,11.48c-0.02,6.31-5.16,11.46-11.48,11.47c-5.46,0-10.19-3.87-11.25-9.21     c-0.08-0.4-0.48-0.67-0.88-0.59c-0.41,0.08-0.67,0.47-0.59,0.88c1.2,6.04,6.55,10.42,12.72,10.42c7.16,0,12.98-5.82,12.98-12.97     C43.49,29,38.07,23.35,31.26,22.96z M22.79,17.1c-1.88-1.88-2.99-4.32-3.17-6.94c5.4,0.38,9.73,4.71,10.12,10.12     C27.11,20.09,24.67,18.98,22.79,17.1z M41.4,10.16c-0.18,2.62-1.29,5.07-3.17,6.94c-1.88,1.88-4.32,2.99-6.94,3.17     C31.67,14.87,36,10.54,41.4,10.16z M27.15,6.23c0-1.85,1.51-3.36,3.36-3.36c1.85,0,3.36,1.51,3.36,3.36     c0,1.85-1.51,3.36-3.36,3.36C28.66,9.59,27.15,8.09,27.15,6.23z"/><path class="st4" d="M18.32,37.07c0.41-0.02,0.74-0.37,0.72-0.78c-0.01-0.4-0.34-0.72-0.74-0.72h-0.03     c-0.2,0-0.39,0.09-0.52,0.24c-0.14,0.14-0.21,0.33-0.2,0.53c0.01,0.41,0.34,0.73,0.75,0.73H18.32z"/><path class="st4" d="M30.51,45.74c5.43,0,9.84-4.41,9.84-9.84c0-5.43-4.41-9.84-9.84-9.84s-9.84,4.41-9.84,9.84     C20.67,41.33,25.08,45.74,30.51,45.74z M30.51,27.56c4.6,0,8.34,3.74,8.34,8.34c0,4.6-3.74,8.34-8.34,8.34s-8.34-3.74-8.34-8.34     C22.17,31.3,25.91,27.56,30.51,27.56z"/><path class="st4" d="M30.51,39.29c-0.73,0-1.32-0.59-1.32-1.32c0-0.41-0.34-0.75-0.75-0.75s-0.75,0.34-0.75,0.75     c0,1.31,0.91,2.41,2.12,2.72c-0.03,0.08-0.05,0.17-0.05,0.27V40.9c0,0.41,0.34,0.75,0.75,0.75s0.75-0.34,0.75-0.75v0.06     c0-0.09-0.02-0.18-0.05-0.27c1.22-0.31,2.12-1.41,2.12-2.72c0-1.55-1.26-2.82-2.82-2.82c-0.73,0-1.32-0.59-1.32-1.32     c0-0.73,0.59-1.32,1.32-1.32c0.73,0,1.32,0.59,1.32,1.32c0,0.41,0.34,0.75,0.75,0.75s0.75-0.34,0.75-0.75     c0-1.29-0.88-2.37-2.07-2.71V30.7c0-0.41-0.34-0.75-0.75-0.75s-0.75,0.34-0.75,0.75v0.43c-1.19,0.33-2.07,1.41-2.07,2.71     c0,1.55,1.26,2.82,2.82,2.82c0.73,0,1.32,0.59,1.32,1.32S31.23,39.29,30.51,39.29z"/></g></g></g></svg>
+                <h2>Quick Budget</h2>
+              </div> <div id="container">
+                    <label class="switch">
+                      <input type="checkbox" onclick="changeMode()">
+                      <span class="slider"></span>
+                    </label>
+                  </div>
+            </nav>
+            <h1 id="greeting"></h1>
+            <p class="quote">Spend with guidance today!</p>
+        </header>
+<div class="container">
+        <section>
+            <div class="budget-div">
+             <label for="budget">Enter your budget <br>
+                <input type="number" min="0" placeholder="How much are you budgetting?" id="budget"></label><br>
+                <button ontouchstart="mDown(this)"  ontouchend="mUp(this)" onmousedown="mDown(this)" onmouseup="mUp(this)"   onclick="budget()" id="budget-btn">Enter</button>
+            </div>
+            <div class="expense-div">
+     <label for="expense-name">Enter your expense name<br>
+    <input type="text" placeholder="What are you spending on?" id="expense-name">
+    </label><br>
+    <label for="expense">Enter your expense value<br>
+    <input type="number" value="" placeholder="How much does it cost?"  id="expense" min="0"></label><br>
+    <button onclick="calculate()" id="calculate" >Calculate</button>
+            </div>
+          
+        </section>
+        <section>
+            <div class="info">
+                <div class="info-val"><h2>Budget</h2>
+                <p id="budget-text">0</p>
+            </div>
+                <div  class="info-val"><h2>Expenses</h2>
+                <p id="expense-text">0</p>
+            </div>
+                <div  class="info-val"><h2>Balance</h2>
+                <p id="total">0</p>
+            </div>
+            </div>
+        <div class="exp-list">
+            <h1>Expense List</h1>
+        <div id="exp-div">
+        </div>
+        <button class="delete" onclick="reset()"><i class="fi fi-rr-trash"></i></button>
+        </div>
+        </section>
+</div>
+<div id="modal-box">
+    <div id="result-sheet">
+        <p id="warning"></p>
+   </div></div>
+    </body>
+</html>
